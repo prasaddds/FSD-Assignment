@@ -1,0 +1,28 @@
+.add-form {
+    margin-bottom: 20px;
+  }
+  .form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .form-control input[type='text'] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .form-control input[type='submit'] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-control input[type='submit']:hover {
+    background-color: #555;
+  }
